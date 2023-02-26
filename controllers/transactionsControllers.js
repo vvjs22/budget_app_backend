@@ -41,9 +41,4 @@ transactions.put("/:id", (req, res) => {
   }
 });
 
-// 404 Catch all
-// transactions.get("*", (req, res) => {
-//   res.json({ error: "Page not found" });
-// });
-
 module.exports = transactions;
